@@ -34,7 +34,7 @@ function Header() {
         <li onClick={() => handleCategoryClick("baby-clothing")}>
               Baby Clothing
             </li>
-          <li>Baby Clothing</li>
+          
           <li>Kids Clothing</li>
           <li>Moms & Maternity</li>
           <li>Babycare</li>
