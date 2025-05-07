@@ -31,6 +31,8 @@ function Header() {
 
       <nav className="nav-menu">
         <ul>
+
+          <li>Home</li>  
         <li onClick={() => handleCategoryClick("baby-clothing")}>
               Baby Clothing
             </li>
