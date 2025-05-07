@@ -1,0 +1,36 @@
+/* src/components/CategoryPanel.css */
+.category-panel {
+    display:flex;
+    padding: 30px 50px;
+    background-color: white;
+    border-top: 1px solid #ccc;
+    gap: 40px;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .column h4 {
+    text-transform: uppercase;
+    color: #082038;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .column li {
+    margin: 15px 0;
+    font-size: 11px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .column li:hover {
+    text-decoration: underline;
+  }
+  
